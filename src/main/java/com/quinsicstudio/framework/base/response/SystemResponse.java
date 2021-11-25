@@ -1,4 +1,4 @@
-package com.quinsicstudio.framework.response;
+package com.quinsicstudio.framework.base.response;
 
 public interface SystemResponse {
      Response SYS0000 = new Response("SYS0000", "SUCCESS");

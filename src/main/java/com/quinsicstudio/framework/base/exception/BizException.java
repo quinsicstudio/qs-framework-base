@@ -1,7 +1,7 @@
-package com.quinsicstudio.framework.exception;
+package com.quinsicstudio.framework.base.exception;
 
 
-import com.quinsicstudio.framework.response.Response;
+import com.quinsicstudio.framework.base.response.Response;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

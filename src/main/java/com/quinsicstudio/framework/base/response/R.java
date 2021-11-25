@@ -1,7 +1,7 @@
-package com.quinsicstudio.framework.response;
+package com.quinsicstudio.framework.base.response;
 
 
-import com.quinsicstudio.framework.exception.BizException;
+import com.quinsicstudio.framework.base.exception.BizException;
 
 public class R {
 
