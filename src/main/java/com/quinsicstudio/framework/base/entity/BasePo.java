@@ -22,11 +22,11 @@ public class BasePo implements Serializable {
     @Column(name = "version")
     protected int version;
 
-    @Column(name = "created_dt")
+    @Column(name = "created_datetime")
     @CreatedDate
     protected Date createdDatetime;
 
-    @Column(name = "updated_dt")
+    @Column(name = "last_modified_datetime")
     @LastModifiedDate
     protected Date lastModifiedDatetime;
 
@@ -34,7 +34,7 @@ public class BasePo implements Serializable {
     @CreatedBy
     protected Long createdBy;
 
-    @Column(name = "updated_by")
+    @Column(name = "last_modified_by")
     @LastModifiedBy
     protected Long lastModifiedBy;
 }
